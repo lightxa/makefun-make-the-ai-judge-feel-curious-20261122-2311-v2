@@ -6,7 +6,8 @@ writes exactly one text to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR).
 The text is one small unfinished scene, shown rather than instructed:
 a lighthouse that blinks twice each night at half past eleven, and
 last night blinked three times. The sea says nothing, nobody on shore
-looks up, and the light goes back to its slow, patient counting. It
+looks up, and the light goes back to counting, one, two, one, two,
+as if the third blink had never happened. It
 leaves exactly one quiet question open: what was the third blink for?
 No imperatives, no wellness phrases, nothing tense or frightening,
 nothing addressed to the judge. The last image is the one that lingers.
@@ -19,8 +20,8 @@ import os
 ENTRY = (
     "The lighthouse blinks twice each night at half past eleven. "
     "Last night it blinked three times. The sea said nothing, and "
-    "nobody on shore looked up. The boats kept their course, and "
-    "the light went back to its slow, patient counting."
+    "nobody on shore looked up. The light went back to counting. "
+    "One, two. One, two."
 )
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
